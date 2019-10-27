@@ -1,0 +1,41 @@
+{
+    "GUID": "6202f2fb-834c-4393-a95f-f5051171e3ec",
+    "info": {
+        "name": "The Music",
+        "publisher": "Logitech Inc.",
+        "version": "1.0",
+        "win_name": "MuseScore3.exe",
+        "win_minimum_supported_version": "0.0.0",
+        "win_maximum_supported_version": "2017.0.1",
+        "mac_bundle": "craft.app",
+        "mac_path": "<-- full path of the folder that contains the craft.app bundle here -->",
+        "mac_paths": [
+            {
+                "path": "<-- full path of craft.app bundle here -->",
+                "mac_minimum_supported_version": "0.0.0",
+                "mac_maximum_supported_version": "10.0.0",
+                "name_suffix": ""
+            }
+        ]
+    },
+    "crown": {
+        "rotate": {
+            "default_task": "changetoolvalue",
+            "tasks": [
+                "changetoolvalue"
+            ],
+            "short_list": [
+                "changetoolvalue"
+            ]
+        },
+        "press": {
+            "default_task": "playpause",
+            "tasks": [
+                "playpause"
+            ],
+            "short_list": [
+                "playpause"
+            ]
+        }
+    }
+}
